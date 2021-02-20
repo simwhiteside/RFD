@@ -60,6 +60,7 @@ body {
 	height: 35px;
 	align-items: center;
 	display: flex;
+	font-size: 0.5ev;
 }
 
 
@@ -123,8 +124,12 @@ article h2 {
 
 @media(max-width: 798px){
 	article{
-		backdrop-filter: brightness(0.2);
+		backdrop-filter: brightness(0.4);
 		min-width: 80vw;
+	}
+
+	.contentwrap{
+		min-width: 320px;
 	}
 
 	.text h2{
@@ -133,5 +138,13 @@ article h2 {
 
 	.text h3{
 		font-size: 2em;
+	}
+
+	.nav {
+		height: 0.75rem;
+		font-size: 0.75rem;
+	}
+	.topbar{
+		height: 75px;
 	}
 }
