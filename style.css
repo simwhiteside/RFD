@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
 }
 
+
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -60,7 +61,7 @@ body {
 	height: 35px;
 	align-items: center;
 	display: flex;
-	font-size: 0.5ev;
+	
 }
 
 
@@ -100,6 +101,7 @@ article{
 	margin: 1px 10px 10px 0px;
 	text-align: left;
 	backdrop-filter: brightness(1.4) ;
+	font-size: 16px;
 
 }
 
@@ -120,14 +122,21 @@ article h2 {
 }
 
 
-
+p{
+	font-size: 1em;
+}
 
 @media(max-width: 798px){
 	article{
 		backdrop-filter: brightness(0.4);
 		min-width: 80vw;
+	    min-height: 30vh;
+	    color: white;
 	}
 
+    p{
+    	font-size: 0.8em;
+    }
 	.contentwrap{
 		min-width: 320px;
 	}
